@@ -1,3 +1,5 @@
+// type.d.ts
+
 export {};
 
 declare global {
@@ -5,4 +7,14 @@ declare global {
     conn: any;
     promise: any;
   };
+}
+
+// ✅ Transaction interface for finance app
+// type.d.ts
+export interface Transaction {
+  id: string;
+  date: string;
+  amount: number;
+  description: string;
+  category: string;
 }
