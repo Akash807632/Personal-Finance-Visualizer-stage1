@@ -1,0 +1,33 @@
+/* styles/Home.module.css */
+
+.container {
+  @apply max-w-4xl mx-auto px-4 py-10 space-y-8;
+}
+
+.section {
+  @apply bg-white rounded-lg shadow-md p-6;
+}
+
+.sectionTitle {
+  @apply text-xl font-semibold mb-4 text-gray-800;
+}
+
+.navbar {
+  @apply bg-gray-900 text-white py-4 shadow-md;
+}
+
+.navContent {
+  @apply max-w-5xl mx-auto px-4 flex justify-between items-center;
+}
+
+.navLinks {
+  @apply flex space-x-6 text-sm font-medium;
+}
+
+.navLinkItem {
+  @apply hover:text-blue-400 cursor-pointer;
+}
+
+.footer {
+  @apply bg-gray-900 text-gray-300 text-center py-4;
+}
